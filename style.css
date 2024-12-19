@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Teko:wght@300..700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1d1d1d;
+    color: #E2F26B;
+}
+
+html {
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+nav {
+    max-width: 1120px;
+    margin: auto;
+    padding: 1.5rem 10rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: Teko;
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    color: #B4BF5E;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+    background-color: #0D0D0D;
+    max-width: 1120px;
+    height: 60vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 6rem;
+    align-items: center;
+
+    padding: 0rem 2rem;
+    margin: auto;
+
+    overflow: clip;
+}
+
+.principal {
+    background-color: #0D0D0D;
+}
+
+.hero-conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.destaque {
+    font-family: Epilogue;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color:#E2F26B;
+}
+
+.azul {
+    color: #A79BF2;
+}
+
+h1{
+    color: #E2F26B;
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+
+hr{
+    border-color: #A79BF2;
+}
+
+.hero-subtitulo{
+    color: #F2F2F2;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.hero-imagens-container {
+    max-width: 45%;
+    column-count: 4;
+    column-gap: 1rem;
+    margin: -1;
+}
+
+.hero-imagens-container > figure > img {
+    width: 100%;
+    border-radius: 0.5rem;
+
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background: #A79BF2;
+    margin-left: 2rem;
+}
+
+.botao-container {
+    width: 100%;
+    max-width: 1120px;
+    margin: auto;
+    transform: translate(0, -50%);
+}
+
+.funcionalidades {
+    display: flex;
+    flex-direction: column;
+    max-width: 1120px;
+    padding: 3rem 2rem;
+    margin-left: 10rem;
+}
+
+.funcionalidades-cabecalho {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.funcionalidades-titulo {
+    font-family: Montserrat;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #F2F2F2;
+}
+
+.funcionalidades-subtitulo {
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: normal;
+    color: #F2F2F2;
+}
+
+.funcionalidades-card-container{
+    padding: 0rem 10rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-around;
+    margin-bottom: 5rem;
+}
+
+.funcionalidades-card {
+    background: rgba(180, 191, 94, 0.75);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    flex-basis: 29rem;
+    width: 35rem;
+    height: 11.625rem;
+}
+
+.funcionalidades-card-cabecalho {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.funcionalidades-card-titulo {
+    color: #F2F2F2;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+}
+
+.funcionalidades-descricao {
+    color: #F2F2F2;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+footer {
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    background: #2a2a2a;
+}
+
+.footer-copy{
+    color: #FFF2E7;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.footer-autor{
+    color: rgba(255, 242, 231, 0.5);
+    font-family: Inter;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 500;
+}
+
